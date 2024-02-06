@@ -1,10 +1,10 @@
 # CSE472 Machine Learning Project Report
 
-## Project Title: Solving Jigsaw Puzzle Using Neural Network
+## Project Title: Solving Visual Jigsaw Puzzle Using Deep Learning
 
 ### 1. Introduction
 
-In this report, we outline our plan to utilize Convolutional Neural Networks (CNNs) for the classification task on the Jigsaw Puzzle dataset. Specifically, we will explore the effectiveness of two prominent CNN architectures: VGGNet and ResNet. The objective of this project is to develop robust image classifiers capable of accurately categorizing various types of jigsaw puzzle images.
+In this report, we outline our plan to utilize Convolutional Neural Networks (CNNs) for the classification task on the Jigsaw Puzzle dataset. Specifically, we will explore the effectiveness of two prominent CNN architectures: **VGGNet** and **ResNet**. The objective of this project is to develop robust image classifiers capable of accurately categorizing various types of jigsaw puzzle images.
 
 ### 2. Dataset Overview
 
@@ -30,7 +30,7 @@ Before proceeding with model development, it is imperative to conduct a comprehe
 
 ### 4. Model Selection: VGGNet and ResNet
 
-For this project, we have opted to implement two widely recognized CNN architectures:
+For this project, we have opted to implement a baseline model & two widely recognized CNN architectures:
 
 - **Baseline Model:** Initially, we plan to use a simple multi-layer neural network with a Softmax loss function. This will serve as the baseline against which the performance of more complex models will be compared.
 
@@ -51,8 +51,6 @@ Our project workflow encompasses the following key steps:
 - **Model Evaluation:** Evaluating the trained models on a separate test set to assess their performance metrics, including accuracy, precision, recall, and F1-score.
 
 - **Model Comparison:** Comparing the performance of VGGNet and ResNet models to identify strengths, weaknesses, and areas for improvement.
-
-- **Future Work:** Exploring potential enhancements and extensions to further enhance the classification accuracy and robustness of the models.
 
 ### 6. Conclusion
 
