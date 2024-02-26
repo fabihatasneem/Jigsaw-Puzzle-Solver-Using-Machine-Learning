@@ -1,0 +1,2 @@
+Final Test accuracy: 0.4876
+Best Model Test accuracy: 0.4931
